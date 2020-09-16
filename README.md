@@ -1,1 +1,1 @@
-# AmericanOptions
+This project was created for pricing American options with the use of simulation. Paths are simulated using Geometric Brownian Motion and used as learning environment for a reinforcement learning agent. The agent trains repeatedly using a Markoc Decision Process that formats each path as an American Option. The resulting learned policy is then the estimated optimal stopping time for the options exercise boundary.
